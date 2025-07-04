@@ -30,3 +30,4 @@ class Car(models.Model):
         related_name="books",
     )
     drivers = models.ManyToManyField(Driver, related_name="books")
+
