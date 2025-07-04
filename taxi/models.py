@@ -18,6 +18,9 @@ class Driver(AbstractUser):
         null=True
     )
 
+    class Meta:
+        verbose_name = "Driver"
+
 
 class Car(models.Model):
     model = models.CharField(max_length=265)
